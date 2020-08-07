@@ -1,0 +1,13 @@
+body {
+ color: maroon;	
+ background-image: url("duck.png");
+   background-repeat: no-repeat;
+  background-size: 100%;
+}
+a {
+	
+}
+button {
+	background-color: brown;
+
+}

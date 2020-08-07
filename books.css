@@ -1,0 +1,12 @@
+button {
+	background-color: grey;
+}
+
+img {
+	width: 300px;
+	height: 400px;
+	float: center;
+}
+p {
+	font-size: 20px;
+}

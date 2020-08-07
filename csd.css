@@ -1,0 +1,33 @@
+body {
+	color: black;
+	background-color: lightblue;
+}
+button {
+	background-color: darkgreen;
+
+}
+ul {
+padding-left: 600px;
+color: black;
+
+}
+
+footer{
+	position: absolute;
+	bottom: auto;
+	padding-left: 530px;
+}
+h1{
+	text-align: center;
+}
+p{
+	text-align:center;
+}
+
+
+
+
+
+
+
+  

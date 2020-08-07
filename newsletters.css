@@ -1,0 +1,17 @@
+ 
+ 
+body {
+	background-color: white;
+  text-align: center;
+   background-image: url("logo1.png");
+   background-repeat: no-repeat;
+  background-size: 300px 200px;
+ background-position: bottom 200px right 100px;
+ 
+}
+a {
+	font-size: 30px;
+}
+button {
+	background-color: brown;
+}

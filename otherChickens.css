@@ -1,0 +1,38 @@
+html{
+	
+	
+}
+ul {
+padding-left: 600px;
+color: navy;
+
+}
+
+body {
+background-color: navy;
+ background-image: url("scroll.png");
+   background-repeat: no-repeat;
+  background-size: 1000px 800px;
+  background-position: center;
+background-attachment: fixed;
+
+}
+button {
+	background-color: red;
+
+
+}
+
+footer{
+	position: absolute;
+	bottom: auto;
+	padding-left: 600px;
+}
+h1{
+	text-align: center;
+	
+}
+p{
+	text-align:center;
+}
+

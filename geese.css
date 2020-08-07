@@ -1,0 +1,16 @@
+body {
+ color:#7e061a;	
+ background-image: url("goose.jpg");
+   background-repeat: no-repeat;
+  background-size: 1500px 1080px;
+}
+a {
+	
+}
+button {
+	background-color: lightblue;
+
+}
+h1 {
+	background-color: white;
+}

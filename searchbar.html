@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<title>search bar</title>
+<link rel="stylesheet" type="text/css" href="searchbar.css">
+<link rel="stylesheet" type="text/css" href="everypage.css">
+</head>
+
+
+<body>
+
+
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="chickens.html">Chickens</a>
+  <a href="ducks.html">Ducks</a>
+  <a href="geese.html">Geese</a>
+  <a href="Other.html">Other Kosher Birds</a>
+  <a href="contactUs.html">Contact Us</a>
+  <a href="aboutUs.html">About Us</a>
+  <a class="active" href="searchbar.html">Search For a Bird</a>
+  <a href="newsletters.html">Our Newsletters</a>
+  <a href="books.html">Our Books</a>
+</div>
+
+<br><br><br>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for a bird..">
+<ul id="myUL">
+  <li><a>White Leghorn</a></li>
+<li><a>Pearl Leghorn</a></li>
+<li><a>New Hampshire Red</a></li>
+<li><a>Rhode Island Red</a></li>
+<li><a>Rhode Island White</a></li>
+<li><a>Red Star</a></li>
+<li><a>Cobb 500</a></li>
+<li><a>Ross 307</a></li>
+<li><a>Cobb MV</a></li>
+<li><a>Cobb MX</a></li>
+<li><a>Barred Plymouth Rock</a></li>
+<li><a>White Plymouth Rock</a></li>
+<li><a>White Cornish</a></li>
+<li><a>Dark Cornish</a></li>
+<li><a>Pekin Duck</a></li>
+<li><a>Long Island Pekin Duck</a></li>
+<li><a>Golden 300</a></li>
+<li><a>Khaki Campbell Duck</a></li>
+<li><a>Embden Goose</a></li>
+<li><a>Talouse Goose</a></li>
+<li><a>Red Leghorn</a></li>
+<li><a>Brown Leghorn</a></li>
+<li><a>Speckled Sussex</a></li>
+<li><a>Light Sussex</a></li>
+<li><a>Silver Braekel*</a></li>
+<li><a>Gold Braekel*</a></li>
+<li><a>Japanese Bantam</a></li>
+<li><a>Polish Fowl</a></li>
+<li><a>Fayoumi*</a></li>
+<li><a>Red Cornish</a></li>
+<li><a>Red Jungle Fowl</a></li>
+<li><a>Feverolle</a></li>
+<li><a>Chabo</a></li>
+<li><a>Campines</a></li>
+<li><a>Malay</a></li>
+<li><a>Dorking</a></li>
+<li><a>Salmon Feverolle</a></li>
+<li><a>Frizzle Chicken (not to be confused with silkie)</a></li>
+<li><a>Turken</a></li>
+<li><a>Naked Neck</a></li>
+<li><a>Spanish Fowl</a></li>
+<li><a>blue Andalusian</a></li>
+<li><a>Common Street Pigeon (yonah)</a></li>
+<li><a>Laughing Doves (turtle dove)</a></li>
+<li><a>Ring Neck Dove (turtle dove)</a></li>
+<li><a>Sparrow (tzipor dror)</a></li>
+<li><a>Mourning Dove</a></li>
+<li><a>Hungarian Partridge</a></li>
+<li><a>Red Legged Partridge</a></li>
+<li><a>Chukar Partridge</a></li>
+<li><a>Philby Partridge</a></li>
+<li><a>Barbary Partridge</a></li>
+<li><a>Wild and Domestic turkey</a></li>
+<li><a>Cayuga Duck</a></li>
+<li><a>Fawn Indian Runner</a></li>
+<li><a>Crested Pekin Duck</a></li>
+<li><a>Wild Mallard</a></li>
+<li><a>White Mallard</a></li>
+<li><a>White Indian Runner</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>

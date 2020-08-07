@@ -1,0 +1,21 @@
+a {
+	text-decoration: none;
+}
+p {
+	font-family: sans-serif;
+	color: grey;
+	
+}
+body {
+   background-image: url("contactus.png");
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+h1 {
+	color: blue;
+	font-family: garamond;
+	
+}
+.contact {
+	background-color: white;
+}

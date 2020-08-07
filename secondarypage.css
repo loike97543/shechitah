@@ -1,0 +1,23 @@
+ul {
+padding-left: 600px;
+color: navy;
+
+}
+
+body {
+background-color: skyblue;
+ background-image: url("scroll.png");
+   background-repeat: no-repeat;
+  background-size: 1000px 800px;
+  background-position: center;
+background-attachment: fixed;
+
+}
+
+p {
+	background-color: transparent;
+	color: navy;
+}
+h1 {
+	color: navy;
+}
